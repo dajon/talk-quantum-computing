@@ -19,6 +19,8 @@ layout: false
 
 `$$ | \Psi \rangle = a | 0 \rangle + b | 1 \rangle, \; |a|^2 + |b|^2 = 1  $$`
 
+<img src="img/256px-Bloch_sphere.svg.png" style="width: 50%;"/>
+
 - N-qbit state: direct product of N qbits forms a basis
 - Can be represented as state vector of size `\(2^N\)`
 
@@ -26,7 +28,6 @@ layout: false
 
 - Quantum gate: performs unitary transformation of state vector
 
-<img src="img/image.png" style="width: 50%;"/>
 
 
 ---
