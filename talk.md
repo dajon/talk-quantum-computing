@@ -11,6 +11,7 @@ class: middle, inverse
 ### [UiT The Arctic University of Norway](https://uit.no)
 
 ---
+layout: false
 
 ## Basic consepts
 
