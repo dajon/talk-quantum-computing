@@ -21,7 +21,7 @@ layout: false
 - N-qbit state: direct product of N qbits
 - Can be represented as state vector of size `\(2^N\)`
 - Quantum gate: unitary transformation of state vector
-
+`$$ | x \rangle $$`
 ---
 
 ## What is quantum computing?
