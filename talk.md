@@ -26,9 +26,12 @@ layout: false
 
 - Quantum gate: performs unitary transformation of state vector
 
+<img src="img/image.png" style="width: 50%;"/>
+
+
 ---
 
-## What is quantum computing?
+## How does a quantum computer operate?
 
 - Input data encoded as state vector
 - Quantum computation as a series of quantum gates (reversible)
