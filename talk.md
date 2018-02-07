@@ -82,11 +82,11 @@ state is proportional to the number of all possible classical states
 
 - Adiabatic quantum computer: based on quantum annealing
 
-<img src="img/annealing.png" style="width: 15%;"/>
+<img src="img/annealing.png" style="width: 50%;"/>
 
 - Minimizes an Ising-type Hamiltonian
 
-<img src="img/ising.png" style="width: 15%;"/>
+<img src="img/ising.png" style="width: 50%;"/>
 
 - Array of flux qubits (superconducting, Josephson junctions)
 - Physical realization with thousands of qubits
