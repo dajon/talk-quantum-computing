@@ -16,7 +16,8 @@ layout: false
 ## Basic consepts
 
 - qbit: superposition of two states
-$$| x > = a | 0 > + b | 1 >, |a|^2 + |b|^2 = 1  $$
+`$$ \left | x \right > = a \left | 0 \right > + b \left | 1 \right > \,
+\left | a \right | ^2 + \left | b \right | ^2 = 1  $$`
 - N-qbit state: direct product of N qbits
 - Can be represented as state vector of size `\(2^N\)`
 - Quantum gate: unitary transformation of state vector
