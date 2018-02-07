@@ -13,7 +13,7 @@ class: middle, inverse
 ---
 layout: false
 
-## Basic consepts
+## Qbits and quantum gates
 
 - qbit: superposition of two states
 
