@@ -16,7 +16,7 @@ class: middle, inverse
 
 - qbit: superposition of two states
 - N-qbit state: direct product of N qbits
-- Can be represented as state vector of size $$2^N$$
+- Can be represented as state vector of size \(2^N\)
 - Quantum gate: unitary transformation of state vector
 
 ---
@@ -74,7 +74,7 @@ class: middle, inverse
 - Array of flux qubits (superconducting, Josephson junctions)
 - Physical realization with thousands of qubits
 - Not universal, can't do Shor's algorithm
-- Can still do integer factorization my alternative algorithms
+- Can still do integer factorization by alternative algorithms
 - Can do a large class of problems that can be formulated as discrete
   optimization with constraints (binary integer linear programming)
 - Travelling salesman, four colour
