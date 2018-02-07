@@ -31,7 +31,9 @@ layout: false
 - Do measurement on state vector to get actual result (very important point)
 - Final result may come with an uncertainty
 - May need to repeat calculation to get improved statistics/accuracy
-- No-cloning theorem
+- No-cloning theorem: No unitary tranformation such that
+`$$ |0\rangle |\Psi\rangle \rigtharrow |\Psi\rangle |\Psi\rangle $$` 
+
 
 ---
 
