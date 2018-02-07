@@ -16,9 +16,14 @@ layout: false
 ## Basic consepts
 
 - qbit: superposition of two states
+
 `$$ | x \rangle = a | 0 \rangle + b | 1 \rangle, \; |a|^2 + |b|^2 = 1  $$`
-- N-qbit state: direct product of N qbits
+
+- N-qbit state: direct product of N qbits forms a basis
 - Can be represented as state vector of size `\(2^N\)`
+
+`$$ | Psi \rangle = \sum a_i | i \rangle, \; \sum |a_i|^2  = 1  $$`
+
 - Quantum gate: unitary transformation of state vector
 
 ---
@@ -32,8 +37,7 @@ layout: false
 - Final result may come with an uncertainty
 - May need to repeat calculation to get improved statistics/accuracy
 - No-cloning theorem: No unitary tranformation such that
-`$$ |0\rangle |\Psi\rangle \rigtharrow |\Psi\rangle |\Psi\rangle $$` 
-
+`$$ |0\rangle |\Psi\rangle \rightarrow |\Psi\rangle |\Psi\rangle $$` 
 
 ---
 
