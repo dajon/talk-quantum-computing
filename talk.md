@@ -17,14 +17,14 @@ layout: false
 
 - qbit: superposition of two states
 
-`$$ | x \rangle = a | 0 \rangle + b | 1 \rangle, \; |a|^2 + |b|^2 = 1  $$`
+`$$ | \Psi \rangle = a | 0 \rangle + b | 1 \rangle, \; |a|^2 + |b|^2 = 1  $$`
 
 - N-qbit state: direct product of N qbits forms a basis
 - Can be represented as state vector of size `\(2^N\)`
 
-`$$ | Psi \rangle = \sum a_i | i \rangle, \; \sum |a_i|^2  = 1  $$`
+`$$ | \Psi \rangle = \sum a_x | x \rangle, \; \sum |a_x|^2  = 1  $$`
 
-- Quantum gate: unitary transformation of state vector
+- Quantum gate: performs unitary transformation of state vector
 
 ---
 
@@ -47,6 +47,8 @@ layout: false
 - Do calculations "in parallel through superposition"
  (but this might not be so easy in practise)
 - Sometimes exponential speed up compared to classical algorithms
+- The number of parameters needed to specify one particular quantum
+state is proportional to the number of all possible classical states
 - Quantum algorithms usually look quite different from classical ones
 - Example: Shor's algorithm for integer factorization
 - Quantum supremacy
@@ -58,7 +60,7 @@ layout: false
 ## Physical realizations
 
 - As of today limited to about 50 qbits
-- Ions
+- Trapped Ions
 - Optical
 - NMR
 - Others
@@ -71,6 +73,7 @@ layout: false
 - Typically, needs cooling to mK temp 
 - Non-trivial to prepare system in arbitrary initial state
 - Non-trivial to apply arbitrary unitary transformation
+- Non-trivial to measure
 - Expensive
 
 ---
@@ -78,7 +81,13 @@ layout: false
 ## D-wave
 
 - Adiabatic quantum computer: based on quantum annealing
+
+<img src="img/annealing.png" style="width: 15%;"/>
+
 - Minimizes an Ising-type Hamiltonian
+
+<img src="img/ising.png" style="width: 15%;"/>
+
 - Array of flux qubits (superconducting, Josephson junctions)
 - Physical realization with thousands of qubits
 - Not universal, can't do Shor's algorithm
