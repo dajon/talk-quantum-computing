@@ -16,8 +16,9 @@ layout: false
 ## Basic consepts
 
 - qbit: superposition of two states
+$$| x > = a | 0 > + b | 1 >, |a|^2 + |b|^2 = 1  $$
 - N-qbit state: direct product of N qbits
-- Can be represented as state vector of size \(2^N\)
+- Can be represented as state vector of size `\(2^N\)`
 - Quantum gate: unitary transformation of state vector
 
 ---
@@ -58,9 +59,9 @@ layout: false
 
 ---
 
-## Main challenges
+## Challenges
 
-- Decoherence
+- Decoherence (this is the big one)
 - Typically, needs cooling to mK temp 
 - Non-trivial to prepare system in arbitrary initial state
 - Non-trivial to apply arbitrary unitary transformation
@@ -78,7 +79,7 @@ layout: false
 - Can still do integer factorization by alternative algorithms
 - Can do a large class of problems that can be formulated as discrete
   optimization with constraints (binary integer linear programming)
-- Travelling salesman, four colour
+- Traveling salesman, four colour
 
 ---
 
@@ -89,4 +90,4 @@ layout: false
 - Probably will never replace regular computers
 - You will not have one at home
 - Will be available at big compute sites
-- Use as accelarator for part of your computation (QPU)
+- Use "QPU" as accelerator for part of your computation
