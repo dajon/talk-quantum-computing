@@ -16,8 +16,10 @@ class: middle, inverse
 
 - qbit: superposition of two states
 - N-qbit state: direct product of N qbits
-- Can be represented as state vector of size 2^N
+- Can be represented as state vector of size $$2^N$$
 - Quantum gate: unitary transformation of state vector
+
+---
 
 ## What is quantum computing?
 
@@ -28,6 +30,8 @@ class: middle, inverse
 - Final result may come with an uncertainty
 - May need to repeat calculation to get improved statistics/accuracy
 - No-cloning theorem
+
+---
 
 ## Speed up from
 
@@ -41,6 +45,7 @@ class: middle, inverse
 
 [The talk](https://www.smbc-comics.com/comic/the-talk-3)
 
+---
 
 ## Physical realizations
 
@@ -50,6 +55,8 @@ class: middle, inverse
 - NMR
 - Others
 
+---
+
 ## Main challenges
 
 - Decoherence
@@ -57,6 +64,8 @@ class: middle, inverse
 - Non-trivial to prepare system in arbitrary initial state
 - Non-trivial to apply arbitrary unitary transformation
 - Expensive
+
+---
 
 ## D-wave
 
@@ -69,6 +78,8 @@ class: middle, inverse
 - Can do a large class of problems that can be formulated as discrete
   optimization with constraints (binary integer linear programming)
 - Travelling salesman, four colour
+
+---
 
 ## Future of quantum computing (my predictions)
 
